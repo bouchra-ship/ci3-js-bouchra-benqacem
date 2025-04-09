@@ -1,19 +1,12 @@
-function motLePlusLong(mots) {
-  let motMax = mots[0]; // On commence avec le premier mot du tableau
 
-  for (let i = 1; i < mots.length; i++) {
-    if (mots[i].length > motMax.length) {
-      motMax = mots[i]; // On met à jour le mot le plus long
-    }
+let mots = ["chat", "montpelier", "lune", "avion"];
+
+let motLePlusLong = "";
+
+for (let i = 0; i < mots.length; i++) {
+  if (mots[i].length > motLePlusLong.length) {
+    motLePlusLong = mots[i];
   }
-
-  console.log("Le mot le plus long est : " + motMax);
 }
 
-
-
-
-
-
-
-
+console.log("Le mot le plus long est : " + motLePlusLong);
