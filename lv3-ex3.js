@@ -1,4 +1,3 @@
-ex3 
 function nombresPremiers(nbr) {
     let nbrPremiers = [];
 
